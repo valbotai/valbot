@@ -1,0 +1,4 @@
+betfairlightweight==2.10
+pandas
+requests
+python-telegram-bot==13.15
