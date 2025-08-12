@@ -1,12 +1,24 @@
-# secrets & envs
-.env
-config.secrets.py
-
-# venv & cache
-venv/
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.db
 
-# logs & backups
-logs/*.log
-*.zip
+# Virtual env
+venv/
+ENV/
+env/
+.venv/
+
+# Logs
+*.log
+bet_logs/
+*.csv
+
+# System
+.DS_Store
+Thumbs.db
+
+# Config
+config_local.py
