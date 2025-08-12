@@ -1,0 +1,12 @@
+# secrets & envs
+.env
+config.secrets.py
+
+# venv & cache
+venv/
+__pycache__/
+*.pyc
+
+# logs & backups
+logs/*.log
+*.zip
