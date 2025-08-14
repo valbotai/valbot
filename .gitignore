@@ -11,14 +11,17 @@ ENV/
 env/
 .venv/
 
-# Logs
-*.log
-bet_logs/
-*.csv
+# Logs & exports
+logs/*.log
+logs/*.csv
+logs/exports/
+logs/archive/
 
-# System
+# System junk
 .DS_Store
 Thumbs.db
 
-# Config
+# Local configs
 config_local.py
+.env
+config.secrets.py
